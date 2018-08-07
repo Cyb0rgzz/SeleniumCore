@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="2">
+	<test name="Test">
+		<classes>
+			<class name="cyborgz.project.selenium.x.SecondTest">
+				<methods>
+					<include name="GOOGLE4"></include>
+					<include name="YANDEX"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
